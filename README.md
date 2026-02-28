@@ -121,13 +121,7 @@ Fabio Morbidi, Roel Cano, David Lara. *Minimum-Energy Path Generation for a Quad
 
 # Contribution Table
 
-# Contribution Table
+![Project Image](./images/Con.png)
 
-| Name | Proposal Contributions |
-|------|-------------------------|
-| Christine Kim | Completed the Problem and Background sections and the Gantt chart. |
-| Mahika Raj | Created and managed the GitHub repository and GitHub Pages. Completed the Potential Results section. |
-| Devanshi Sood | Managed the video creation, recording, and upload of the unlisted YouTube video. |
-| Joseph Miao | Completed the Potential Results section and imported the potential simulation into GitHub. |
-| David Li | Completed the Methodology section. |
+
 <br>
