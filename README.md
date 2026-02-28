@@ -1,8 +1,8 @@
-# ML_Masters_Proposal
+### ML_Masters_Proposal
 
-# Report
+## Report
 
-*Literature*
+# Literature
 
 In the midst of Vision and Language Navigation innovation, AerialVLN was proposed, a UAV-based VLN task for outdoor environments [1]. However, as energy awareness is not widely discussed in VLN, the typical path-length objective of existing approaches does not directly minimize energy consumption, nor allows constraining the energy of individual paths by battery capacity [2]. We will utilize a combination of Supervised Learning and Reinforcement Learning to better consider energy.
 
