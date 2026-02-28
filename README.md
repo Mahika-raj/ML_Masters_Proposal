@@ -1,7 +1,7 @@
 # ML_Masters_Proposal
 **AerialVLN w Fuel Constraints**
 
-**By Christine Kim, Mahika Raj, Devanshi Sood, Joesph Miao, and David Li**
+**By Christine Yewon Kim, Mahika Raj, Devanshi Sood, Joesph C Miao, and Song Yue David Li**
 - [Report](#report)
 - [Gantt Chart](#gantt-chart)
 - [Contribution Table](#contribution-table)
@@ -114,7 +114,7 @@ Fabio Morbidi, Roel Cano, David Lara. *Minimum-Energy Path Generation for a Quad
 
 # Gantt Chart
 
-![Project Image](./images/Gantt.png)
+![Project Image](./images/table.png)
 
 
 <br><br><br>
