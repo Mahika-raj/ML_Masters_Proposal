@@ -6,23 +6,24 @@
 
 <br><br>
 
-# Report
-<br>
+# Report:
 
-# Literature
+# Introduction/Background
+
+## Literature
 
 In the midst of Vision and Language Navigation innovation, AerialVLN was proposed, a UAV-based VLN task for outdoor environments [1]. However, as energy awareness is not widely discussed in VLN, the typical path-length objective of existing approaches does not directly minimize energy consumption, nor allows constraining the energy of individual paths by battery capacity [2]. We will utilize a combination of Supervised Learning and Reinforcement Learning to better consider energy.
 
-### Dataset Description
+## Dataset Description
 This dataset includes AerialVLN and AerialVLN-S annotated images for training and evaluation, a total of 32.4GB.
 
 *Dataset Link*  
 [AirVLN GitHub Repository](https://github.com/AirVLN/AirVLN)
 
-### Problem
+## Problem
 With the new constraints, specifically fuel capacity and limits, we focus on aerial navigation in the sky, UAV-based and aimed towards outdoor environments.
 
-### Motivation
+## Motivation
 Many existing VLN tasks are built for agents that navigate on the ground, either indoors or outdoors. However, some tasks require intelligent agents to operate in the sky, such as UAV-based goods delivery, traffic/security patrol, and scenery tours [1]. Most importantly, aerial navigation is a field with much work to be done.
 
 <br>
