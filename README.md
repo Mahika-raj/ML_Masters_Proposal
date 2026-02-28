@@ -1,6 +1,6 @@
 # ML_Masters_Proposal
 AerialVLN w Fuel Constraints
-By Christine Kim, Mahika Raj, Devanshi Sood, Joesph Miao, and David Li
+### By Christine Kim, Mahika Raj, Devanshi Sood, Joesph Miao, and David Li
 - [Report](#report)
 - [Gantt Chart](#gantt-chart)
 - [Contribution Table](#contribution-table)
