@@ -4,7 +4,7 @@
 - [Gantt Chart](#gantt-chart)
 - [Contribution Table](#contribution-table)
 
-<br>
+<br><br>
 
 # Report
 
@@ -103,18 +103,17 @@ Fabio Morbidi, Roel Cano, David Lara. *Minimum-Energy Path Generation for a Quad
 - Yacef, F., Rizoug, N., Degaa, L. & Hamerlain, M. *Energy-efficiency path planning for quadrotor UAV under wind conditions.* In 2020 7th International Conference on Control, Decision and Information Technologies (CoDIT), vol. 1, 1133–1138 (2020).  
   [Link](https://hal.science/hal-04504751/document)
 
-<br>
-<br>
-<br>
+<br><br><br>
+
 
 # Gantt Chart
 
 ![Project Image](./images/Gantt.png)
 
 
-<br>
-<br>
-<br>
+<br><br><br>
+
+
 
 # Contribution Table
 
