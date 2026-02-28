@@ -104,13 +104,16 @@ Fabio Morbidi, Roel Cano, David Lara. *Minimum-Energy Path Generation for a Quad
   [Link](https://hal.science/hal-04504751/document)
 
 <br>
+<br>
+<br>
 
 # Gantt Chart
 
 ![Project Image](./images/Gantt.png)
 
 
-
+<br>
+<br>
 <br>
 
 # Contribution Table
