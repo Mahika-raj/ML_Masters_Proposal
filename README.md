@@ -121,7 +121,7 @@ Fabio Morbidi, Roel Cano, David Lara. *Minimum-Energy Path Generation for a Quad
 
 # Contribution Table
 
-![Project Image](./images/Con.png)
+![Project Image](./images/con.png)
 
 
 <br>
