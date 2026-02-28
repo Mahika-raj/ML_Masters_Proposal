@@ -7,8 +7,9 @@
 <br><br>
 
 # Report
+<br>
 
-*Literature*
+# Literature
 
 In the midst of Vision and Language Navigation innovation, AerialVLN was proposed, a UAV-based VLN task for outdoor environments [1]. However, as energy awareness is not widely discussed in VLN, the typical path-length objective of existing approaches does not directly minimize energy consumption, nor allows constraining the energy of individual paths by battery capacity [2]. We will utilize a combination of Supervised Learning and Reinforcement Learning to better consider energy.
 
@@ -117,5 +118,13 @@ Fabio Morbidi, Roel Cano, David Lara. *Minimum-Energy Path Generation for a Quad
 
 # Contribution Table
 
+# Contribution Table
 
+| Name | Proposal Contributions |
+|------|-------------------------|
+| Christine Kim | Completed the Problem and Background sections and the Gantt chart. |
+| Mahika Raj | Created and managed the GitHub repository and GitHub Pages. Completed the Potential Results section. |
+| Devanshi Sood | Managed the video creation, recording, and upload of the unlisted YouTube video. |
+| Joseph Miao | Completed the Potential Results section and imported the potential simulation into GitHub. |
+| David Li | Completed the Methodology section. |
 <br>
