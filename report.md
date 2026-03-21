@@ -168,6 +168,7 @@ More images:
 - Our goal is to **meaningfully** improve on the ML baseline using fuel-aware RL
 
 
+<br><br>
 
 # Citations/References
 
@@ -188,3 +189,14 @@ Morbidi, F., Cano, R., & Lara, D. (2016). *Minimum-energy path generation for a 
 Yacef, F., Rizoug, N., Degaa, L., & Hamerlain, M. (2020). *Energy-efficiency path planning for quadrotor UAV under wind conditions*. In **2020 7th International Conference on Control, Decision and Information Technologies (CoDIT)**, Vol. 1, 1133–1138.  
 [https://hal.science/hal-04504751/document](https://hal.science/hal-04504751/document)
 
+
+<br><br>
+
+# Gantt Chart:
+
+<img src="{{ '/images/j.png' | relative_url }}" width="550">
+
+<br><br>
+
+# Contribution Table:
+<img src="{{ '/images/k.png' | relative_url }}" width="550">
