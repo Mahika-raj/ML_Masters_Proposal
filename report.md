@@ -91,8 +91,31 @@ The fuel parameter is fed into the present model and the gate module, which dete
 Overall, the objective of this fuel awareness constraint, in addition to the original imitation loss, is to adapt the model’s predictions to be aware of physical constraints. In the beginning, when fuel is abundant, the model will prioritize exploration and improve familiarity with new environments. When fuel is low, the model will shift towards efficient paths to maximize likelihood of reaching the end within budget. 
 
 
+# Results and Discussion
+
+**1. TF Baseline without Fuel Constraints**
+
+<img src="{{ '/images/c.png' | relative_url }}" width="650">
+
+We take these baseline results from AerialVLN and use the CMA model as our teacher-forcing baseline without fuel constraints. It is evaluated using Success Rate (SR), Oracle Success Rate (OSR), Navigation Error (NE), and SDTW. On the test unseen split, CMA gets 1.6% SR, 4.1% OSR, 358.6 m NE, and 0.5 SDTW, while human performance is much higher. This shows the task is hard, especially in unseen environments. Another useful point is that the baseline often gets close to the goal but does not stop correctly, since OSR is higher than SR. Longer paths are also much harder, with only 1.8% success on long paths compared to 7.4% on shorter ones. Since this baseline does not include fuel or energy limits, our project adds path efficiency, mean fuel consumption, and constraint violation rate to better evaluate energy-aware navigation. We expect our model to keep a good success rate while producing smoother paths, using less fuel, and breaking the fuel constraint less often.
 
 
+**2. TF with Fuel Constraints**
+Since our current model is still based on Teacher Forcing, the main comparison we use is the Seq2Seq baseline from the AerialVLN paper. We use this because it is the closest baseline to what we have implemented so far, so it makes the comparison more fair. We compare it with our TF + Fuel model.
+
+<img src="{{ '/images/d.png' | relative_url }}" width="650">
+
+
+**3. Discussion + Analysis**
+
+From the table, our TF + Fuel model is slightly better than the paper’s Seq2Seq baseline on both splits. On Val Seen, it improves NE from 146.0 to 144.5, SR from 4.8 to 5.2, OSR from 19.8 to 20.4, and SDTW from 1.6 to 1.7. On Val Unseen, it improves NE from 218.9 to 216.0, SR from 2.3 to 2.7, OSR from 11.7 to 12.2, and SDTW from 0.7 to 0.8.
+
+The improvement is small, but that makes sense for this project. Aerial VLN is already a hard task, and the original paper also showed that teacher-forcing methods perform pretty badly, especially on unseen environments. So even though our fuel-aware version does a little better, the overall metrics are still low.
+This suggests that adding fuel awareness helps the model make slightly better decisions, probably because it has some idea of how much budget is left and can avoid wasting movement. At the same time, it is still clear that Teacher Forcing is not a strong final solution for this task. That is also why the original paper moved to stronger methods like DAGGER.
+
+Overall, our TF + Fuel model works as a good starting baseline for the project. It shows that fuel constraints can be added into the pipeline and can give a small improvement, even if the task is still difficult. This gives us something to compare against later when we try stronger methods like RL DAGGER-style training.
+
+**4. Visualisations:**
 
 
 
