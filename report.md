@@ -46,6 +46,19 @@ Fuel Constraints - On top of the standard dataset, our preprocessing pipeline ad
 - Forces the model to adjust its behavior based on remaining battery level
 - This addition is unique to our work and is not part of the original AerialVLN dataset
 
+**Dataset Linkzx**
+https://github.com/AirVLN/AirVLN 
+
+Problem
+With the new constraints, specifically fuel capacity and limits, we focus on aerial navigation in the sky, UAV-based and aimed towards outdoor environments.
+
+First step of our goal is to implement fuel constraints on our first method, Teacher Forcing, and to compare the performance of simulation without fuel constraints. This method is primarily going to be used as a **baseline**.  
+
+
+Motivation
+Many existing VLN tasks are built for agents that navigate on the ground, either indoors or outdoors. However, some tasks require intelligent agents to operate in the sky, such as UAV-based goods delivery, traffic/security patrol, and scenery tours [1]. Most importantly, aerial navigation is a field with much work to be done.
+
+
 
 
 
