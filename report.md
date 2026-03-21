@@ -3,6 +3,8 @@ layout: page
 title: "Report"
 permalink: /report/
 ---
+**By Christine Yewon Kim, Mahika Raj, Devanshi Sood, Joseph C Miao, and Song Yue David Li**
+
 
 # Literature 
 In the midst of Vision and Language Navigation innovation, AerialVLN was proposed, a UAV-based VLN task for outdoor environments specifically taking into consideration aerial actions as aerial navigation is significantly more complicated than ground-based VLN [1]. However, as energy awareness is not widely discussed in VLN, the typical path-length objective of existing approaches does not directly minimize energy consumption, nor allows constraining the energy of individual paths by battery capacity [2]. We will utilize a combination of Supervised Learning and Reinforcement Learning to better consider energy, building on top of their implementation.
@@ -95,7 +97,7 @@ Overall, the objective of this fuel awareness constraint, in addition to the ori
 
 **1. TF Baseline without Fuel Constraints**
 
-<img src="{{ '/images/c.png' | relative_url }}" width="650">
+<img src="{{ '/images/c.png' | relative_url }}" width="850">
 
 We take these baseline results from AerialVLN and use the CMA model as our teacher-forcing baseline without fuel constraints. It is evaluated using Success Rate (SR), Oracle Success Rate (OSR), Navigation Error (NE), and SDTW. On the test unseen split, CMA gets 1.6% SR, 4.1% OSR, 358.6 m NE, and 0.5 SDTW, while human performance is much higher. This shows the task is hard, especially in unseen environments. Another useful point is that the baseline often gets close to the goal but does not stop correctly, since OSR is higher than SR. Longer paths are also much harder, with only 1.8% success on long paths compared to 7.4% on shorter ones. Since this baseline does not include fuel or energy limits, our project adds path efficiency, mean fuel consumption, and constraint violation rate to better evaluate energy-aware navigation. We expect our model to keep a good success rate while producing smoother paths, using less fuel, and breaking the fuel constraint less often.
 
@@ -103,7 +105,7 @@ We take these baseline results from AerialVLN and use the CMA model as our teach
 **2. TF with Fuel Constraints**
 Since our current model is still based on Teacher Forcing, the main comparison we use is the Seq2Seq baseline from the AerialVLN paper. We use this because it is the closest baseline to what we have implemented so far, so it makes the comparison more fair. We compare it with our TF + Fuel model.
 
-<img src="{{ '/images/d.png' | relative_url }}" width="650">
+<img src="{{ '/images/d.png' | relative_url }}" width="850">
 
 
 **3. Discussion + Analysis**
