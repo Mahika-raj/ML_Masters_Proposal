@@ -4,6 +4,7 @@ title: "Report"
 permalink: /report/
 ---
 **By Christine Yewon Kim, Mahika Raj, Devanshi Sood, Joseph C Miao, and Song Yue David Li**
+
 Link to GitHub code: 
 https://github.gatech.edu/mraj39/ML_Masters
 
