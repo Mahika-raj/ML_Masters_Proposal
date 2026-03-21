@@ -26,7 +26,7 @@ Why These Dataset(s)
 - Supports dynamic weather (sun, rain, snow, fog) and lighting (morning, noon, night)
 
 
-<img src="{{ '/images/a.png' | relative_url }}" width="600">
+<img src="{{ '/images/a.png' | relative_url }}" width="650">
 * recorded by AOPA licensed human UAV pilots to ensure realistic and high quality flight trajectories. Each path is paired with 3 instructions written by Amazon Mechanical Turk workers, giving the dataset a wide variety of ways to describe the same flight.
 
 
@@ -36,7 +36,7 @@ Why These Dataset(s)
 - RGB and depth images from a front facing camera at every step (depth range up to 100m)
 - Semantic segmentation data available for future use
 
-<img src="{{ '/images/b.png' | relative_url }}" width="600">
+<img src="{{ '/images/b.png' | relative_url }}" width="650">
 
 **Our Addition:**
 Fuel Constraints - On top of the standard dataset, our preprocessing pipeline adds a fuel fraction at every step of every flight:
@@ -49,13 +49,13 @@ Fuel Constraints - On top of the standard dataset, our preprocessing pipeline ad
 **Dataset Linkzx**
 https://github.com/AirVLN/AirVLN 
 
-Problem
+**Problem:**
 With the new constraints, specifically fuel capacity and limits, we focus on aerial navigation in the sky, UAV-based and aimed towards outdoor environments.
 
 First step of our goal is to implement fuel constraints on our first method, Teacher Forcing, and to compare the performance of simulation without fuel constraints. This method is primarily going to be used as a **baseline**.  
 
 
-Motivation
+**Motivation:**
 Many existing VLN tasks are built for agents that navigate on the ground, either indoors or outdoors. However, some tasks require intelligent agents to operate in the sky, such as UAV-based goods delivery, traffic/security patrol, and scenery tours [1]. Most importantly, aerial navigation is a field with much work to be done.
 
 
